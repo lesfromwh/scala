@@ -1,4 +1,4 @@
-package com.ls.classdemo
+package com.ls.castdemo
 
 import java.io.IOException
 

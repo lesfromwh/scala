@@ -1,4 +1,4 @@
-package com.ls.classdemo.sington
+package com.ls.castdemo.sington
 
 import scala.collection.mutable.ArrayBuffer
 

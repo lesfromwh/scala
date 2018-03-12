@@ -1,4 +1,4 @@
-package com.ls.classdemo
+package com.ls.castdemo
 
 /**
   * @author liushuang 2017/12/5

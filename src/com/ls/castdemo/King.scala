@@ -1,4 +1,4 @@
-package com.ls.classdemo
+package com.ls.castdemo
 
 /**
   * 构造器参数可以不带val或var，如果不带val或var的参数至少被一个方法所使用，
