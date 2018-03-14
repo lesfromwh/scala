@@ -1,0 +1,12 @@
+package com.ls.mydemo.fold_foldleft_foldright
+
+/**
+  * @author liushuang 2018/3/14
+  */
+class Foo(val name: String, val age: Int, val sex: Symbol) {
+
+}
+
+object Foo {
+  def apply(name: String, age: Int, sex: Symbol) = new Foo(name, age, sex)
+}
