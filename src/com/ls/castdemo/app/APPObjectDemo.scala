@@ -6,4 +6,5 @@ package com.ls.castdemo.app
 object APPObjectDemo extends App {
   //不用写main方法,可以执行run
   println("i love scala")
+  -5 to 5 foreach(println(_))
 }
