@@ -5,9 +5,9 @@ package com.ls.highfunction
   */
 object HighFunction3 {
   def main(args: Array[String]): Unit = {
-    println(func(1))
-    func(func(1))
-    func2(func(1))
+    println(2)
+    func(2)
+    func2(2)
     //有什么不一样吗?  todo 不懂
     val f3 = func3(func _)(2)
     println(f3)
