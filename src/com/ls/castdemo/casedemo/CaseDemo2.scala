@@ -10,7 +10,7 @@ object CaseDemo2 extends App {
   val name = arr(0)
   name match {
     case x: Int => println(x)
-    //还可以加入过滤条件
+    //还可以加入过滤条件(守卫)
     case y: Double if (y < 0) => println(y)
     case z: String => printf(z)
     case _ => printf("error")
