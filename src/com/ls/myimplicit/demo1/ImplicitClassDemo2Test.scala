@@ -1,4 +1,4 @@
-package com.ls.implicitdemo
+package com.ls.myimplicit.demo1
 
 /**
   *

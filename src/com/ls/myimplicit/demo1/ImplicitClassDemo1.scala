@@ -1,4 +1,4 @@
-package com.ls.implicitdemo
+package com.ls.myimplicit.demo1
 
 /**
   * 隐式类1
@@ -17,8 +17,8 @@ object ImplicitClassDemo1 {
     import ImplicitClassDemo1._
     //编译报错
     //    val max = math.max("1", 2)
-    val max = math.max("1".strToDouble, 2)
-    print(max)
+//    val max = math.max("1".strToInt, 2)
+//    print(max)
   }
 }
 
