@@ -8,10 +8,13 @@ class Chooser2[T] {
   //相当于view bound 视图界定
   //T<%V 必须存在一个从T->V的隐式转换
   //这里只T=>Ordered[T]
+  //传一个隐式转换函数(函数也是值...)
   def choose(first: T, second: T)(implicit ord: T => Ordered[T]): T = {
     if (first > second) first else second
   }
 
+  //context  bound
+  //传一个隐式值.
   def select(first: T, second: T)(implicit ord: Ordering[T]): T = {
     if (ord.gt(first, second)) first else second
   }
